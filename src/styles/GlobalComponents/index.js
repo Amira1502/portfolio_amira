@@ -25,12 +25,12 @@ export const Section = styled.section`
 `
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-weight: 600;
+  font-size: ${(props) => props.main ? '60px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(121.57deg, #28929a 18.77%, rgba(55, 183, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -56,11 +56,11 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(38, 38, 38, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -103,7 +103,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(38, 38, 38, 0.75);
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -117,11 +117,11 @@ export const SectionSubText = styled.p`
   }
 `
 export const SecondaryBtn = styled.button`
-  color: #FFF;
+  color: #000;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
   box-sizing: border-box;
-  border-radius: 999px;
+  border-radius: 99px;
   padding: 16px 24px;
   font-weight: 600;
   font-size: 18px;
@@ -169,7 +169,7 @@ export const SecondaryBtn = styled.button`
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
-  border-radius: 50px;
+  border-radius: 5px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
   display: flex;
@@ -201,7 +201,7 @@ export const ButtonBack = styled.div`
 
 export const ButtonFront = styled.button`
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
   color: #fff;
   display: flex;
   position: absolute;

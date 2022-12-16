@@ -35,7 +35,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node and Nosql/Mysql Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -61,7 +61,7 @@ const Technologies = () =>  (
           <ListTitle> Integration</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            AWS
+            Azure
           </ListParagraph>
         </ListContainer>
       </ListItem>

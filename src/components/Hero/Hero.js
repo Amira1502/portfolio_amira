@@ -14,8 +14,8 @@ const Hero = (props) => (
            I'm Amira
         </SectionTitle>
         <SectionText>
-        A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.        </SectionText>
-        <Link href="https://docs.google.com/document/d/1-f_sXh1083f8bVzeOT0UUb61zG7M0xj_/edit?usp=sharing&ouid=116965491241867474436&rtpof=true&sd=true"> 
+        A passionate Full Stack Web Developer 🚀 Enthusiastic about blockchain and web3 industry, having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.        </SectionText>
+        <Link href="https://drive.google.com/file/d/1iC-3k6FYDfy3QN_VgPb8crGQ1aN68lu-/view?usp=sharing"> 
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
         <Button>See my Resume</Button>
         </a>

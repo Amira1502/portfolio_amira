@@ -1,5 +1,7 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { FaTelegram } from "react-icons/fa";
+
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -29,6 +31,9 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/amira-nasri-135582112/">
             <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://t.me/amiranasri" target="_blank">
+          <FaTelegram size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://www.instagram.com/amiranasri88/">
             <AiFillInstagram size="3rem" />

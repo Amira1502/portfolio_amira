@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub,  AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { FaTelegram } from "react-icons/fa";
+import { DiTerminal } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -9,8 +10,8 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+        <a style={{ display: 'flex', alignItems: 'center', color:'black', fontSize:'18px'}}>
+        <DiTerminal/><span>Portfolio</span>
         </a>
       </Link>
     </Div1>
@@ -35,10 +36,13 @@ const Header = () =>  (
         <SocialIcons href="https://github.com/Amira1502" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/amira-nasri-135582112/" >
+        <SocialIcons href="https://www.linkedin.com/in/amira-nasri-135582112/" target="_blank" >
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/amiranasri88/">
+        <SocialIcons href="https://t.me/amiranasri" target="_blank">
+          <FaTelegram size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.instagram.com/amiranasri88/" target="_blank">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
       </Div3>

@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Portfolio dev',
-    description: "The full Personal Development Portfolio is an app that helps you showcase your work and skills as a software developer.",
+    title: 'FastCoin',
+    description: "This is a code repository for React Solidity Blockchain Application on Web 3.0. It showcase how it could be run on Ethereum.",
       image: '/images/3.png',
-      tags: ['React', 'Redux'],
-    source: 'https://github.com/Amira1502/platformCodi',
-    visit: 'https://github.com/Amira1502/platformCodi',
+      tags: ['React', 'Solidity', 'EtherJS', 'SmartContract'],
+    source: 'https://github.com/Amira1502/fastcoin',
+    visit: 'https://fastcoin.netlify.app/',
     id: 2,
   },
   {
@@ -39,8 +39,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a junior web developer at benApps', },
+  { year: 2018, text: 'Worked as a junior web developer at Coupdepoucedigital', },
   { year: 2019, text: 'Worked as a web developer at Codilab', },
-  { year: 2020, text: 'Worked as a freelance developer', },
-  { year: 2021, text: 'Worked as a fullstack web developer at Task teck', },
+  { year: 2020, text: 'Worked as a freelance blockchain developer', },
+  { year: 2021, text: 'Worked as a fullstack web developer at Task tech', },
 ];
